@@ -9,7 +9,10 @@
 
 
 ## CURL
-`curl http://127.0.0.1:11434/api/generate -d '{"model": "deepseek-r1:8b", "stream": false, "prompt": "1+1?" }'`
+```
+curl http://127.0.0.1:11434/api/tags
+curl http://127.0.0.1:11434/api/generate -d '{"model": "deepseek-r1:8b", "stream": false, "prompt": "1+1?" }'
+```
 
 ## Models
 * DeepSeek Models: https://ollama.com/library/deepseek-r1
