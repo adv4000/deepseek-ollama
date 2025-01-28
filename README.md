@@ -1,4 +1,4 @@
-# Ollama - Run large language models - DeepSeek
+# Ollama - Run Large Language Models - DeepSeek
 
 1. Download `ollama` CLI https://github.com/ollama/ollama/releases
 2. In One CLI window start server: `ollama serve`
@@ -7,5 +7,11 @@
 5. Run model: `ollama run deepseek-r1:8b`
 6. Chat with model.
 
-## Link:
+
+## CURL
+```
+curl http://127.0.0.1:11434/api/generate -d '{"model": "deepseek-r1:8b", "stream": false, "prompt": "1+1?" }'
+```
+
+## Models
 * DeepSeek Models: https://ollama.com/library/deepseek-r1
